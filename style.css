@@ -9,9 +9,17 @@
 li:hover {
   text-decoration: underline;
 }
+li {
+    display: inline;
+    padding: 10px;
+}
 nav {
   flex-wrap: wrap;
 }
 footer {
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
