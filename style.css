@@ -1,0 +1,17 @@
+#google-logo {
+  max-width: 280px;
+  height: auto;
+}
+#profile-pic {
+  max-width: 70px;
+  border-radius: 50%;
+}
+li:hover {
+  text-decoration: underline;
+}
+nav {
+  flex-wrap: wrap;
+}
+footer {
+    flex-wrap: wrap;
+}
