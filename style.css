@@ -1,25 +1,59 @@
-#google-logo {
-  max-width: 280px;
-  height: auto;
-}
-#profile-pic {
-  max-width: 70px;
-  border-radius: 50%;
-}
-li:hover {
-  text-decoration: underline;
+html {
+  width: 100em;
+  height: 100em;
 }
 li {
-    display: inline;
-    padding: 10px;
-}
-nav {
-  flex-wrap: wrap;
-}
-footer {
-  flex-wrap: wrap;
-}
-ul {
   list-style-type: none;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+}
+#search {
+  border-radius: 80px;
+  height: 30px;
+}
+.google-logo {
+  max-width: 280px;
+}
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  position: fixed;
+}
+.nav {
+  height: 100%;
+  padding: 10px 20px;
+}
+.nav {
+  height: 100%;
+  display: grid -ms-inline-grid;
+  align-items: center;
+  font-size: 14px;
+  grid-template-columns: 50px 50px 1fr 50px 50px 50px;
+  grid-template-rows: 30px;
+  background-color: rgb(192, 192, 192);
+  grid-template-areas: " link link menu profile-icon";
+  display: ;
+}
+#menu-icon {
+  max-width: 14px;
+  max-height: 14px;
+  grid-area: 1/1;
+}
+.link {
+  grid-area: link;
+}
+#profile-pic {
+  border-radius: 50%;
+  max-width: 50px;
+  grid-area: profile-icon;
+}

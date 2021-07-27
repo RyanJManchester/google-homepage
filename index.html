@@ -1,43 +1,82 @@
 <!DOCTYPE html>
-<header>
-  <link href="style.css" rel="stylesheet" style="text/css" />
-  <link href="reset.css" rel="stylesheet" style="text/css" />
-</header>
-<body>
-  <nav>
-    <li>Gmail</li>
-    <li>Images</li>
-    <li id="hamburger"><img src="images/outline_menu_black_48dp.png" /></li>
-    <li><a><img id="profile-pic" src="images/ryan-profile-pic.jpg" /></a>
-    </li>
-  </nav>
-    <img
-      src="images/googlelogo_color_272x92dp.png"
-      alt="google-logo"
-      id="google-logo"
-    />
-    <br>
-  <div id="search">
-      <id id="input"><input type="text"></id>
-      <button>Google Search</button>
-      <button>Im Feeling Lucky</button>
-    </div>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/favicon-icon.png" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Google Homepage</title>
+  </head>
+  <body>
+    <!--Header-->
+    <header>
+      <nav class="nav">
+        <ul>
+          <li>
+            <a class="link" href="#">Gmail</a>
+          </li>
+          <li>
+            <a class="link" href="#">Images</a>
+          </li>
+          <li>
+            <a id="menu-icon" href="#">
+              <img src="images/outline_menu_black_48dp.png" alt="menu icon"
+            /></a>
+          </li>
+          <li>
+            <img id="profile-pic" src="images/ryan-profile-pic.jpg" alt="profile picture"        </li>
+        </ul>
+      </nav>
+    </header>
+    <!--Main-->
+    <section>
+      <div class="content-wrapper">
+        <img
+          class="google-logo"
+          src="images/googlelogo_color_272x92dp.png"
+          alt="google logo"
+        />
+        <br />
+        <div class="search-bar">
+          <span class="material-icons-outlined"></span>
+<input class="search-input" type="text" placeholder="" />
+          
 
-  </div>
-  <footer>
-    <div>
-      New Zealand
-      <ul id="footer-left">
-        <li>About</li>
-        <li>Advertising</li>
-        <li>Business</li>
-        <li>How Search works</li>
-      </ul>
-      <ul id="footer-right">
-        <li>Privacy</li>
-        <li>Terms</li>
-        <li>Settings</li>
-      </ul>
+        </div>
+        <button>Google Search</button>
+        <button>Im Feeling Lucky</button>
+        <div class="language">
+          <p>Google offered in <a href="">Maori</a></p>
+        </div>
+      </div>
+    </section>
+    <!--Footer-->
+    <div class="footer" id="top-footer">
+      <p>New Zealand</p>
     </div>
-  </footer>
-</body>
+    <div class="footer bottom-footer">
+      <ul id="left">
+        <li>About
+        </li>
+        <li>
+        Advertising
+        </li>
+        <li>
+        Business
+        </li>
+        <li>
+          How Search works
+        </li>
+      </ul>
+      <ul id="right">
+<li>
+    Privacy</li>
+<li>Terms</lined">
+        search
+        </span> 
+    </div>
+    </div>
+  </body>
+</html>
