@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html lang="en"><style>
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-</style> >
+</style>
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="images/favicon-icon.png" />
     <link href="style.css" rel="stylesheet" type="text/css" />
     <title>Google Homepage</title>
   </head>
   <body>
-    <!--Header-->
     <header>
       <nav>
         <ul class="nav">
@@ -27,11 +25,13 @@
               <img id="menu-icon" src="images/outline_menu_black_48dp.png" alt="menu icon"></a>
           </li>
           <li>
-            <img id="profile-pic" src="images/ryan-profile-pic.jpg" alt="profile picture"        </li>
+            <a href="#"><img id="profile-pic" src="images/ryan-profile-pic.jpg" alt="profile picture"></a></li>
         </ul>
       </nav>
     </header>
     <!--Main-->
+
+
     <section>
       <div class="content-wrapper">
         <img
@@ -42,41 +42,38 @@
         <br />
         <div class="search-bar">
           <span class="material-icons-outlined"></span>
-<input class="search-input" type="text" placeholder="" />
-          
-
-        </div>
-        <button>Google Search</button>
-        <button>Im Feeling Lucky</button>
+<input class="search-input box-shadow" type="text" placeholder="" />
+          </div>
+<div>
+        <button class="button box-shadow" >Google Search</button>   
+        <button class="button box-shadow" id="left-btn" >Im Feeling Lucky</button>
         <div class="language">
-          <p>Google offered in <a href="">Maori</a></p>
+</div><p>Google offered in <a href="#" class="link" style="font-size: 18px;color: #1a0dab;">Maori</a></p>
         </div>
       </div>
     </section>
     <!--Footer-->
+
+<div id="footer">
     <div class="footer" id="top-footer">
-      <p>New Zealand</p>
+      <p>New Zealand</p><br>
     </div>
     <div class="footer bottom-footer">
-      <ul id="left">
-        <li>About
+      <ul class="footer" id="footer-left">
+        <li class="footer-left"><a href="#">About
         </li>
-        <li>
-        Advertising
+        <li class="footer-left">
+        <a href="#">Advertising</a>
         </li>
-        <li>
-        Business
+        <li class="footer-left">
+        <a href="#">Business</a>
         </li>
-        <li>
-          How Search works
+        <li class="footer-left">
+          <a href="#">How Search works</a>
         </li>
-      </ul>
-      <ul id="right">
-<li>
-    Privacy</li>
-<li>Terms</lined">
-        search
-        </span> 
+        <li class="footer-right"><a href="#">Privacy</a></li>
+<li class="footer-right"> <a href="#">Terms</a></li>
+<li class="footer-right"> <a href="#">Search</a></li> 
     </div>
     </div>
   </body>
